@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_current">
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.example.exerciseapp.ui.history.HistoryFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/navigation_current"
+        android:name="com.example.exerciseapp.ui.current.CurrentFragment"
+        android:label="@string/title_current"
+        tools:layout="@layout/fragment_current" />
+
+    <fragment
+        android:id="@+id/navigation_stats"
+        android:name="com.example.exerciseapp.ui.statistics.StatisticsFragment"
+        android:label="@string/title_stats"
+        tools:layout="@layout/fragment_statistics" />
+    <fragment
+        android:id="@+id/navigation_custom"
+        android:name="com.example.exerciseapp.ui.customEntry.CustomEntryFragment"
+        android:label="@string/title_custom"
+        tools:layout="@layout/fragment_custom_entry" />
+</navigation>

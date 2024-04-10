@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ExerciseApp</string>
+    <string name="title_history">History</string>
+    <string name="title_current">Current Exercise</string>
+    <string name="title_stats">Statistics</string>
+    <string name="title_custom">Custom Entry</string>
+    <string name="current_clock">Time Elapsed</string>
+    <string name="current_activity">Activity</string>
+    <string name="current_calories">Calories Burned</string>
+    <string name="current_speed">Current Speed</string>
+    <string name="current_exercise">Exercise Recorded!</string>
+    <string name="custom_activity">Enter what activity it was</string>
+    <string name="custom_time">Enter how much time passed in minutes</string>
+    <string name="custom_calories">Enter how many calories you burned</string>
+    <string name="custom_button">Submit</string>
+    <string name="custom_confirm">Custom Exercise Added!</string>
+    <string name="main_button">Sign Out</string>
+    <string name="login_title">Log In</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_signup">Sign Up</string>
+    <string name="signup_weight">Weight in Kg</string>
+    <string name="signup_confirmEmail">Confirm Email</string>
+    <string name="signup_confirmPassword">Confirm Password</string>
+    <string name="statistic_week">This Week</string>
+    <string name="statistic_month">This Month</string>
+    <string name="statistic_year">This Year</string>
+    <string name="statistic_calories">Calories burned</string>
+    <string name="statistic_time">Time spent exercising</string>
+    <string name="statistic_activity">Favorite activity</string>
+    <string name="statistic_update">Update</string>
+    <string name="statistic_weight">Enter your weight in kg</string>
+</resources>
